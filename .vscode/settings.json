@@ -3,14 +3,15 @@
         // This is Default.
         {
             "format": "expanded",
-            "extensionName": "css/.css",
+            "extensionName": ".css",
             "savePath": null
         },
         // You can add more
         {
             "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "/dist/css"
+            "savePath": "/assets/css"
         },
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }

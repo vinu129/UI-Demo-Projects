@@ -1,4 +1,17 @@
-#site-nav{
-@include wh(200px);
-overflow: auto;
+#site-nav {
+  @include wh(220px);
+  overflow: auto;
+  display: flex;
+  flex-shrink: 0;
+  min-width: 220px;
+  .nav {
+    @include wh;
+    .nav-link {
+      padding: 12px;
+      .nav-icon {
+        width: 30px;
+        padding-left: 15px;
+      }
+    }
+  }
 }

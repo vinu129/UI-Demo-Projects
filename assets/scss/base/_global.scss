@@ -9,7 +9,7 @@ body{
     @include wh;
 }
 body{
-    font-family:'Roboto Condensed', sans-serif; 
+    font-family:$font-family-base;
 }
 #main-wrapper{
     @include wh;
@@ -20,4 +20,10 @@ body{
     @include wh;
     display: flex;
     padding: 0;
+}
+.text-light{
+    color: $white
+}
+.text-dark{
+    color:darken(#ccc,5%);
 }
